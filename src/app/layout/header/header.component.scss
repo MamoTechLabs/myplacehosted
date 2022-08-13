@@ -1,0 +1,17 @@
+.navbar-brand em {
+  font-style: normal;
+  color: #003399;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #8c8b56 !important;
+  transition: all 0.5s;
+  font-weight: 900;
+}
+
+.submenu :hover {
+  cursor: pointer;
+}

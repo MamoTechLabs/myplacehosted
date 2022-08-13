@@ -1,0 +1,44 @@
+<!-- header-start -->
+<header>
+  <div class="header-area ">
+    <div id="sticky-header" class="main-header-area">
+      <div class="container-fluid p-0">
+        <div class="row align-items-center no-gutters">
+          <div class="col-xl-5 col-lg-4 d-none d-lg-block">
+            <div class="Logo">
+              <a href="#" class="navbar-brand scroll-top"><em>MOPHOP</em><small>.com</small></a>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-8">
+            <div class="main-menu  d-none d-lg-block">
+              <nav>
+                <ul id="navigation">
+                  <li><a [routerLinkActive]="['active']" [routerLink]="'/home'" href="index.html">home</a></li>
+                  <li><a [routerLink]="'/rooms'" [routerLinkActive]="['active']">Our aparments</a></li>
+                  <li><a [routerLink]="'/about'" [routerLinkActive]="['active']">About</a></li>
+
+                  <li><a [routerLink]="'/services'" [routerLinkActive]="['active']">Services <i
+                        class="ti-angle-down"></i></a>
+                    <ul class="submenu">
+                      <li><a>Tourist rental management</a></li>
+                      <li><a>Interior design</a></li>
+                      <li><a>Solutions</a></li>
+                    </ul>
+                  </li>
+                  <li><a [routerLink]="'/contact'" [routerLinkActive]="['active']">Contact</a></li>
+                  <li><a>Language <i class="ti-angle-down"></i></a>
+                    <ul class="submenu">
+                      <li><a>English</a></li>
+                      <li><a>Spanish</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header-end -->
